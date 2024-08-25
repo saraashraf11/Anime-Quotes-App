@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Anime"
+rootProject.name = "Anime Quotes"
 include(":app")
  

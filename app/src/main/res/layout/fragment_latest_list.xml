@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/d_purble"
+    tools:context=".ui.MainAnimes">
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="502dp"
+        android:layout_height="233dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        app:srcCompat="@drawable/some_animes" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:divider="@color/pink"
+        android:dividerHeight="2dp"
+        android:listSelector="@color/pink">
+    </ListView>
+
+
+
+</LinearLayout>
+

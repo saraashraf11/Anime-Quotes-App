@@ -1,5 +1,6 @@
 [versions]
 agp = "8.5.1"
+cardviewV7Version = "28.0.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -16,6 +17,7 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+support-cardview-v7 = { module = "com.android.support:cardview-v7", version.ref = "cardviewV7Version" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

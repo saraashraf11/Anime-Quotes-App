@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_latestQuotes"
+            android:icon="@drawable/baseline_format_quote_24"
+            android:title="Latest Quotes" />
+        <item android:id="@+id/nav_animeList"
+            android:icon="@drawable/baseline_format_list_bulleted_24"
+            android:title="Anime List"/>
+        <item android:id="@+id/nav_animeCharacter"
+            android:icon="@drawable/baseline_people_24"
+            android:title="Anime Characters"/>
+        <item android:id="@+id/nav_favourite"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Favourite"/>
+        <item android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About Us"/>
+
+    </group>
+        <item android:title="Communicate">
+            <menu>
+                <item android:id="@+id/nav_share"
+                    android:icon="@drawable/baseline_share_24"
+                    android:title="Share"/>
+            </menu>
+        </item>
+</menu>

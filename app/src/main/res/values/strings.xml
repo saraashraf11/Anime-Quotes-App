@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Anime</string>
+    <string name="app_name">Anime Quotes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open navigation drawer</string>
+    <string name="close_nav">Close navigation drawer</string>
+    <string name="register">" "Register</string>
+    <string name="login">Login</string>
+    <string name="let_s_discover_animes">Let\'s Discover Animes!</string>
+    <string name="don_t_have_an_account">don\'t have an account?</string>
+    <string name="join_and_enjoy_with_us">Join and enjoy with us</string>
+
 </resources>
